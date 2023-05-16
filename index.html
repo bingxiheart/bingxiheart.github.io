@@ -6,53 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      
+      .code {
+        background-color: #f2f2f2;
+      }
     </style>
-    <script>
-      //   var myData = {
-      //     name: "susan",
-      //     weather: "sunny",
-      //     printMessages: function () {
-      //       document.writeln("Hello " + this.name + " weather " + this.weather);
-      //     },
-      //   };
-
-      //   document.write("printMessage11s" in myData);
-    </script>
+    <script></script>
   </head>
   <body>
     <div class="father">
-       H5 CSS3 IE9+才支持
-属性选择器： img[src] 选择有src属性的img标签
-// 以上代码为当前网页下载 Open Sans 字体，从而使自定义 CSS 中可以对 HTML 元素应用这个字体。
- <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
- 
-px代表 像素pixels
-/* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
-line-height: 2;
+      <ul>
+        <li>H5 CSS3 IE9+才支持</li>
+        <li>属性选择器： img[src] 选择有src属性的img标签</li>
+        <li>
+          <xmp class="code">
+            <link
+              href="https://fonts.font.im/css?family=Open+Sans"
+              rel="stylesheet"
+              type="text/css"
+            /> 
+          </xmp>
+          以上代码为当前网页下载 Open Sans 字体，从而使自定义 CSS 中可以对 HTML
+          元素应用这个字体。
+        </li>
 
-内容 padding border  margin
+        <li>px代表像素pixels</li>
+        <li>
+          line-height后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字
+          line-height: 2;
+        </li>
 
-margin:上下 左右
+        <li>内容 padding border margin</li>
 
-text-shadow: 3px 3px 1px black;
-第一个值设置水平偏移值 —— 即阴影右移的像素数（负值左移）。
-第二个值设置垂直偏移值 —— 即阴影下移的像素数（负值上移）。
-第三个值设置阴影的模糊半径 —— 值越大产生的阴影越模糊。
-第四个值设置阴影的基色。
+        <li>margin:上下 左右</li>
 
+        <li>
+          text-shadow: 3px 3px 1px black; 第一个值设置水平偏移值 ——
+          即阴影右移的像素数（负值左移）。 第二个值设置垂直偏移值 ——
+          即阴影下移的像素数（负值上移）。 第三个值设置阴影的模糊半径 ——
+          值越大产生的阴影越模糊。 第四个值设置阴影的基色。
+        </li>
 
-margin:0 auto 只能作用于块级元素上 并且设置了width
-浏览器应用程序接口（API）—— 浏览器内置的 API 提供了丰富的功能，比如：动态创建 HTML 和设置 CSS 样式、
-从用户的摄像头采集处理视频流、生成 3D 图像与音频样本等等。
+        <li>margin:0 auto 只能作用于块级元素上 并且设置了width</li>
+        <li>
+          浏览器应用程序接口（API）—— 浏览器内置的 API
+          提供了丰富的功能，比如：动态创建 HTML 和设置 CSS 样式、
+          从用户的摄像头采集处理视频流、生成 3D 图像与音频样本等等。
+        </li>
 
-dom元素
-addEventListener('click',xx)
-.onclick = function() { }
-getAttribute('src');
+        <li>
+          dom元素
+          <ul>
+            <li>domObj.addEventListener('click',xx)</li>
+            <li>domObj.onclick = function() { }</li>
+            <li>domObj.getAttribute('src')</li>
+          </ul>
+        </li>
 
-localStorage.setItem('name', myName) //将数据存储在浏览器中供后续获取
-
+        <li>
+          localStorage.setItem('name', myName) 将数据存储在浏览器中供后续获取
+        </li>
+      </ul>
     </div>
   </body>
 </html>
